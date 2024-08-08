@@ -2,22 +2,34 @@
 
 <head>
     <title>FOTW</title>
-    <link rel="icon" type="image/x-icon" href="Assets/src/img/icon.png" />
+    <link rel="icon" type="image/x-icon" href="src/img/icon.png" />
     <style>
         #Title {
             text-align: center;
         }
 
-        #Signup {
-            display: yes;
+        #signup-form {
+            display: none;
         }
 
-        #Login {
+        #login-form {
             display: yes;
         }
 
         #sign-up-button {
             display: yes;
+        }
+
+        #login-button {
+            display: none;
+        }
+
+        #login-failed {
+            display: none;
+        }
+
+        #login-success {
+            display: none;
         }
     </style>
 </head>
@@ -28,7 +40,7 @@
 
 <body>
     <div>
-        <form id="signup" action="/action_page.php" target="_top" method="get">
+        <form id="signup-form" action="/action_page.php" target="_n" method="get">
             <h2> Sign up</h2>
             <!--Username Input-->
             <label for="uname">Username:</label><br>
@@ -51,7 +63,7 @@
         </form>
     </div>
     <div>
-        <form id="Login" target="_top" method="post">
+        <form id="login-form" target="_top" method="post">
             <h2>Login</h2>
             <!--Username Input-->
             <label for="uname">Username:</label><br>
@@ -61,6 +73,9 @@
             <input type="text" id="pname" name="pname"></br>
             <!--Login Button-->
             <input name="Login Button" type="submit" value="Login">
+            <script src="src/js/script.js"></script>
+            <label id="login-failed" type="text">Don't Have and account?</label>
+            <label id="login-success" type="text">Success</label>
         </form>
     </div>
 </body>
