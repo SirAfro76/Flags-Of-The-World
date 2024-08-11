@@ -1,0 +1,31 @@
+#Title {
+    text-align: center;
+}
+
+/*Buttons*/
+#signup-button {
+    display: none;
+}
+
+#login-button {
+    display: none;
+}
+
+/*Login Message*/
+#login-failed {
+    display: none;
+}
+
+#login-success {
+    display: none;
+}
+
+/*Forms */
+.signup-form {
+    text-align: center;
+    display: none;
+}
+
+.login-form {
+    text-align: center;
+}
