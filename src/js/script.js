@@ -1,6 +1,6 @@
 function loadscriptconfirmation (){
-    console.log('JavaScript script has been successfully loaded.');
-    alert('JavaScript script has been successfully loaded.');
+    console.log('Script loaded successfully');
+    alert('Script loaded successfully');
 }
 loadscriptconfirmation();
 
