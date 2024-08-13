@@ -15,9 +15,7 @@ loadscriptconfirmation();
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
-
         loginform.style.display = "none ";
-        signupform.style.display = "none";
     };
 });
 
