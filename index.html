@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="src/css/stylesheet.css">
 </head>
 
-<h1 id="Title">Flags Of The World Quiz</h1>
-<input id="signup-button" name="signup-button" type="submit" value="Signup">
-<input id="login-button" name="login-button" type="submit" value="Login">
+<h1 id="page-title">Flags Of The World Quiz</h1>
+<button id="login" class="btn" onclick="togglelogin()">Login</button>
+<button id="sign-up" class="btn" onclick="togglesignup()">Sign up</button>
 
 <body>
     <div>
-        <form class="signup-form" id="signup-form">
+        <form class="form" id="signup-form">
             <h2>Sign up</h2>
             <!--Username Input-->
             <label for="uname">Username:</label><br>
@@ -26,16 +26,15 @@
             <!--Password Input-->
             <label for="pname">Password:</label><br>
             <input type="text" id="pname" name="pname" placeholder="Enter your password"><br>
-            <!--Password COnfirmation-->
+            <!--Password Confirmation-->
             <label for="pname">Password Again:</label><br>
-            <input type="text" id="pname" name="pname"placeholder="Repeat your password"><br>
+            <input type="text" id="pname" name="pname" placeholder="Repeat your password"><br>
             <!--Login Button-->
-            <input name="Signup But" type="submit" value="Confirm">
-
+            <button class="btn">Confirmation</button>
         </form>
     </div>
     <div>
-        <form class="login-form">
+        <form class="form" id="login-form">
             <h2>Login</h2>
             <!--Username Input-->
             <label for="uname">Username or Email:</label><br>
@@ -44,7 +43,7 @@
             <label for="pname">Password:</label><br>
             <input type="text" id="pname" name="pname" placeholder="Enter password"></br>
             <!--Login Button-->
-            <input name="Login Button" type="submit" value="Login">
+            <button class="btn">Login In</button>
             <!--Login Message-->
             <label id="login-failed" type="text">Don't Have an account?</label>
             <label id="login-success" type="text">Success</label>
@@ -52,6 +51,6 @@
     </div>
 </body>
 
-<script src="src/js/script.js" async></script>
+<script src="src/js/script.js"></script>
 
 </html>
