@@ -6,49 +6,62 @@
     <link rel="stylesheet" href="src/css/stylesheet.css">
 </head>
 
-<h1 id="page-title">Flags Of The World Quiz</h1>
+<!--Buttons-->
 <button id="login" class="btn" onclick="togglelogin()">Login</button>
 <button id="sign-up" class="btn" onclick="togglesignup()">Sign up</button>
 
+<!--Continent Buttons-->
+<input id="Oceania" class="continents" type="button" value="Oceania">
+
 <body>
-    <div>
-        <form class="form" id="signup-form">
-            <h2>Sign up</h2>
-            <!--Username Input-->
-            <label for="uname">Username:</label><br>
-            <input type="text" id="uname" name="uname" placeholder="Enter your username"><br>
-            <!--Display Name-->
-            <label for="dname">Display Name:</label><br>
-            <input type="text" id="dname" name="dname" placeholder="Your visible name"><br>
-            <!--Email Input-->
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email" placeholder="Enter your email"><br>
-            <!--Password Input-->
-            <label for="pname">Password:</label><br>
-            <input type="text" id="pname" name="pname" placeholder="Enter your password"><br>
-            <!--Password Confirmation-->
-            <label for="pname">Password Again:</label><br>
-            <input type="text" id="pname" name="pname" placeholder="Repeat your password"><br>
-            <!--Login Button-->
-            <button class="btn">Confirmation</button>
-        </form>
-    </div>
-    <div>
-        <form class="form" id="login-form">
-            <h2>Login</h2>
-            <!--Username Input-->
-            <label for="uname">Username or Email:</label><br>
-            <input type="text" id="user" name="uname" placeholder="Enter username"><br>
-            <!--Password Input-->
-            <label for="pname">Password:</label><br>
-            <input type="text" id="pname" name="pname" placeholder="Enter password"></br>
-            <!--Login Button-->
-            <button class="btn">Login In</button>
-            <!--Login Message-->
-            <label id="login-failed" type="text">Don't Have an account?</label>
-            <label id="login-success" type="text">Success</label>
-        </form>
-    </div>
+    <header>
+        <div>
+            <h1 id="page-title">Flags Of The World Quiz</h1>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <form class="form" id="signup-form">
+                <h2>Sign up</h2>
+                <!--Username Input-->
+                <label for="uname">Username:</label><br>
+                <input type="text" id="uname" name="uname" placeholder="Enter your username"><br>
+                <!--Display Name-->
+                <label for="dname">Display Name:</label><br>
+                <input type="text" id="dname" name="dname" placeholder="Your visible name"><br>
+                <!--Email Input-->
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+                <!--Password Input-->
+                <label for="pname">Password:</label><br>
+                <input type="text" id="pname" name="pname" placeholder="Enter your password"><br>
+                <!--Password Confirmation-->
+                <label for="pname">Password Again:</label><br>
+                <input type="text" id="pname" name="pname" placeholder="Repeat your password"><br>
+                <!--Confirm signup Button-->
+                <button class="btn">Confirmation</button>
+                <!--Sign-up message-->
+                <label id="sign-up-success" class="signup-message">Success</label>
+                <label id="sign-up-failed" class="signup-message">Signup failed</label>
+            </form>
+        </div>
+        <div>
+            <form class="form" id="login-form">
+                <h2>Login</h2>
+                <!--Username Input-->
+                <label for="uname">Username or Email:</label><br>
+                <input type="text" id="user" name="uname" placeholder="Enter username"><br>
+                <!--Password Input-->
+                <label for="pname">Password:</label><br>
+                <input type="text" id="pname" name="pname" placeholder="Enter password"></br>
+                <!--Login Button-->
+                <button class="btn">Login In</button>
+                <!--Login Message-->
+                <label id="login-failed" class="login-message" type="text">Don't Have an account?</label>
+                <label id="login-success" class="login-message" type="text">Success</label>
+            </form>
+        </div>
+        </header>
 </body>
 
 <script src="src/js/script.js"></script>
