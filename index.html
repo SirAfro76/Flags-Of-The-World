@@ -10,16 +10,12 @@
 <button id="login" class="btn" onclick="togglelogin()">Login</button>
 <button id="sign-up" class="btn" onclick="togglesignup()">Sign up</button>
 
-<!--Continent Buttons-->
-<input id="Oceania" class="continents" type="button" value="Oceania">
 
 <body>
     <header>
         <div>
             <h1 id="page-title">Flags Of The World Quiz</h1>
         </div>
-    </header>
-    <nav>
         <div>
             <form class="form" id="signup-form">
                 <h2>Sign up</h2>
@@ -41,8 +37,8 @@
                 <!--Confirm signup Button-->
                 <button class="btn">Confirmation</button>
                 <!--Sign-up message-->
-                <label id="sign-up-success" class="signup-message">Success</label>
-                <label id="sign-up-failed" class="signup-message">Signup failed</label>
+                <label id="signup-success" class="signup-message">Success</label>
+                <label id="signup-failed" class="signup-message">Signup failed</label>
             </form>
         </div>
         <div>
@@ -55,13 +51,30 @@
                 <label for="pname">Password:</label><br>
                 <input type="text" id="pname" name="pname" placeholder="Enter password"></br>
                 <!--Login Button-->
-                <button class="btn">Login In</button>
+                <button class="btn" onclick="signupsuccess">Login In</button>
                 <!--Login Message-->
                 <label id="login-failed" class="login-message" type="text">Don't Have an account?</label>
                 <label id="login-success" class="login-message" type="text">Success</label>
             </form>
         </div>
-        </header>
+    </header>
+    <nav>
+        <div>
+            <h1 id="selection-page">Select Continent/s or do all</h1>
+        </div>
+        <div>
+            <input id="AF" class="continent" type="button" value="Africa">
+            <input id="NA-CA" class="continent" type="button" value="North America & Central America">
+            <input id="SA" class="continent" type="button" value="South America">
+            <input id="AS" class="continent" type="button" value="Asia">
+            <input id="OCE" class="continent" type="button" value="Australasia & Oceania">
+            <input id="EU" class="continent" type="button" value="Europe">
+            <input id="AN" class="continent" type="button" value="Antarcia">
+        </div>
+        <div>
+            <input id="all-continents" type="button" value="all">
+        </div>
+    </nav>
 </body>
 
 <script src="src/js/script.js"></script>
