@@ -11,9 +11,15 @@ $$$$$$\ $$$$$$$  |$$  /     \$$$$$$  |
                                       
 */
 
-/*Page Tite*/
+/* Titles */
+
 #page-title {
     text-align: center;
+}
+
+#selection-page {
+    text-align: center;
+    font-size: xx-large;
 }
 
 /* Buttons */
@@ -25,12 +31,32 @@ $$$$$$\ $$$$$$$  |$$  /     \$$$$$$  |
     display: none;
 }
 
+/*Continents*/
+#AF,
+#AN,
+#AS,
+#EU,
+#NA,
+#NA-CA,
+#OCE,
+#SA {
+    display: block;
+}
+
 /* Login Message*/
 #login-failed {
     display: none;
 }
 
 #login-success {
+    display: none;
+}
+
+#signup-success {
+    display: none;
+}
+
+#signup-failed {
     display: none;
 }
 
@@ -42,7 +68,7 @@ $$$$$$\ $$$$$$$  |$$  /     \$$$$$$  |
 
 #login-form {
     text-align: center;
-    display: block;
+    display: none;
 }
 
 /*
@@ -70,3 +96,6 @@ $$ |  $$\ $$ |      $$ |  $$ |$$\   $$ |$$\   $$ |$$ |      $$\   $$ |
  \______/ \________|\__|  \__| \______/  \______/ \________| \______/
 
 */
+.section {
+    text-align: center;
+}
