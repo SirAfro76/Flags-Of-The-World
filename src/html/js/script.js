@@ -1,7 +1,7 @@
 function loadscriptconfirmation() {
-    console.log('script.js loaded successfully');
     alert('script.js loaded successfully');
-}
+    console.log('script.js loaded successfully');
+} loadscriptconfirmation();
 
 let loginform;
 let signupform;
@@ -9,10 +9,8 @@ let signupform;
 function ignite() {
     loginform = document.getElementById('login-form');
     signupform = document.getElementById('signup-form');
-}
-ignite();
+} ignite();
 
-loadscriptconfirmation();
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {

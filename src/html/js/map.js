@@ -1,4 +1,4 @@
 function scriptload() {
-    console.log('map.js loaded Successfully');
-    alert('map.js loaded Successfully');
-}
+    alert('map.js loaded successfully');
+    console.log('map.js loaded successfully');
+} scriptload();
