@@ -224,7 +224,7 @@
     "th": "Thailand",
     "tj": "Tajikistan",
     "tk": "Tokelau",
-    "tl": "Timor-Leste",
+    "tl": "Timor-Leste (East Timor)",
     "tm": "Turkmenistan",
     "tn": "Tunisia",
     "to": "Tonga",
