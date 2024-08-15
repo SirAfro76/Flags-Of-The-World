@@ -6,74 +6,79 @@
     <link rel="stylesheet" href="src/html/css/stylesheet.css">
 </head>
 
-<!--Buttons-->
-<button id="login" class="btn" onclick="togglelogin()">Login</button>
-<button id="sign-up" class="btn" onclick="togglesignup()">Sign up</button>
-
-
 <body>
     <header>
-        <div>
-            <h1 id="page-title">Flags Of The World Quiz</h1>
-        </div>
-        <div>
-            <form class="form" id="signup-form">
-                <h2>Sign up</h2>
-                <!--Username Input-->
-                <label for="uname">Username:</label><br>
-                <input type="text" id="uname" name="uname" placeholder="Enter your username"><br>
-                <!--Display Name-->
-                <label for="dname">Display Name:</label><br>
-                <input type="text" id="dname" name="dname" placeholder="Your visible name"><br>
-                <!--Email Input-->
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email" placeholder="Enter your email"><br>
-                <!--Password Input-->
-                <label for="pname">Password:</label><br>
-                <input type="text" id="pname" name="pname" placeholder="Enter your password"><br>
-                <!--Password Confirmation-->
-                <label for="pname">Password Again:</label><br>
-                <input type="text" id="pname" name="pname" placeholder="Repeat your password"><br>
-                <!--Confirm signup Button-->
-                <button class="btn">Confirmation</button>
-                <!--Sign-up message-->
-                <label id="signup-success" class="signup-message">Success</label>
-                <label id="signup-failed" class="signup-message">Signup failed</label>
-            </form>
-        </div>
-        <div>
-            <form class="form" id="login-form">
-                <h2>Login</h2>
-                <!--Username Input-->
-                <label for="uname">Username or Email:</label><br>
-                <input type="text" id="user" name="uname" placeholder="Enter username"><br>
-                <!--Password Input-->
-                <label for="pname">Password:</label><br>
-                <input type="text" id="pname" name="pname" placeholder="Enter password"></br>
-                <!--Login Button-->
-                <button class="btn" onclick="signupsuccess">Login In</button>
-                <!--Login Message-->
-                <label id="login-failed" class="login-message" type="text">Don't Have an account?</label>
-                <label id="login-success" class="login-message" type="text">Success</label>
-            </form>
-        </div>
+        <section>
+            <div>
+                <h1 id="page-title">Flags Of The World Quiz</h1>
+                <p id="page-title-p">Practice your knowledge of all the flags of the world</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <form class="form" id="signup-form">
+                    <h2>Sign up</h2>
+                    <!--Username Input-->
+                    <label for="uname">Username:</label><br>
+                    <input type="text" id="uname" name="uname" placeholder="Enter your username"><br>
+                    <!--Display Name-->
+                    <label for="dname">Display Name:</label><br>
+                    <input type="text" id="dname" name="dname" placeholder="Your visible name"><br>
+                    <!--Email Input-->
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+                    <!--Password Input-->
+                    <label for="pname">Password:</label><br>
+                    <input type="text" id="pname" name="pname" placeholder="Enter your password"><br>
+                    <!--Password Confirmation-->
+                    <label for="pname">Password Again:</label><br>
+                    <input type="text" id="pname" name="pname" placeholder="Repeat your password"><br>
+                    <!--Confirm signup Button-->
+                    <button class="btn">Confirmation</button>
+                    <!--Sign-up message-->
+                    <label id="signup-success" class="signup-message">Success</label>
+                    <label id="signup-failed" class="signup-message">Signup failed</label>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <form class="form" id="login-form">
+                    <h2>Login</h2>
+                    <!--Username Input-->
+                    <label for="uname">Username or Email:</label><br>
+                    <input type="text" id="user" name="uname" placeholder="Enter username"><br>
+                    <!--Password Input-->
+                    <label for="pname">Password:</label><br>
+                    <input type="text" id="pname" name="pname" placeholder="Enter password"></br>
+                    <!--Login Button-->
+                    <button class="btn" onclick="signupsuccess">Login In</button>
+                    <!--Login Message-->
+                    <label id="login-failed" class="login-message" type="text">Don't Have an account?</label>
+                    <label id="login-success" class="login-message" type="text">Success</label>
+                </form>
+            </div>
+        </section>
     </header>
     <nav>
         <div>
-            <h1 id="selection-page">Select Continent/s or do all</h1>
-        </div>
-        <div>
-            <input id="AF" class="continent" type="button" value="Africa">
-            <input id="NA-CA" class="continent" type="button" value="North America & Central America">
-            <input id="SA" class="continent" type="button" value="South America">
-            <input id="AS" class="continent" type="button" value="Asia">
-            <input id="OCE" class="continent" type="button" value="Australasia & Oceania">
-            <input id="EU" class="continent" type="button" value="Europe">
-            <input id="AN" class="continent" type="button" value="Antarcia">
-        </div>
-            <input id="all-continents" type="button" value="all">
+            <button id="login" class="btn" onclick="toggle_login()">Login</button>
+            <button id="sign-up" class="btn" onclick="toggle_signup()">Sign up</button>
+            <button id="account" class="btn" onclick="toggle_account()">Account</button>
+            <button id="home" class="btn" onclick="toggle_homepage">Home</button>
+            <button id="settings" class="btn" onclick="setting">Settings</button>
         </div>
     </nav>
+    <div>
+        <input id="play" type="submit" value="Play">
+    </div>
+    <footer>
+        <div>
+            <p>Website Creator: Sir_Afro</p>
+        </div>
+    </footer>
 </body>
+
 <script src="src/html/js/script.js"></script>
+
 </html>
