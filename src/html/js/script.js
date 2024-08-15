@@ -9,8 +9,8 @@ let signupform;
 function ignite() {
     loginform = document.getElementById('login-form');
     signupform = document.getElementById('signup-form');
+    account = document.getElementById('account');
 } ignite();
-
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
@@ -19,14 +19,17 @@ document.addEventListener('keydown', function (event) {
     };
 });
 
-
-function togglelogin() {
+function toggle_login() {
     loginform.style.display = "block";
     signupform.style.display = "none";
 
 }
 
-function togglesignup() {
+function toggle_signup() {
     signupform.style.display = "block";
     loginform.style.display = "none";
+}
+
+function toggle_account() {
+    alert('account button clicked');
 }

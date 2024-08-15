@@ -17,11 +17,13 @@ $$$$$$\ $$$$$$$  |$$  /     \$$$$$$  |
     text-align: center;
 }
 
-#selection-page {
+#page-title-p{
     text-align: center;
-    font-size: xx-large;
 }
 
+#play{
+    text-align: center;
+}
 /* Buttons */
 #signup-button {
     display: none;
@@ -31,16 +33,14 @@ $$$$$$\ $$$$$$$  |$$  /     \$$$$$$  |
     display: none;
 }
 
-/*Continents*/
-#AF,
-#AN,
-#AS,
-#EU,
-#NA,
-#NA-CA,
-#OCE,
-#SA {
-    display: block;
+#settings{
+    position:fixed;
+    right: 5px;
+}
+
+#account{
+    position: fixed;
+    
 }
 
 /* Login Message*/
@@ -96,6 +96,3 @@ $$ |  $$\ $$ |      $$ |  $$ |$$\   $$ |$$\   $$ |$$ |      $$\   $$ |
  \______/ \________|\__|  \__| \______/  \______/ \________| \______/
 
 */
-.section {
-    text-align: center;
-}
