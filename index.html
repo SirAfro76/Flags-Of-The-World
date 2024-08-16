@@ -5,6 +5,13 @@
     <link rel="icon" type="image/x-icon" href="src/img/icon.png">
     <link rel="stylesheet" href="src/html/css/stylesheet.css">
 </head>
+<button id="login" class="btn" onclick="toggle_login()">Login</button>
+<button id="sign-up" class="btn" onclick="toggle_signup()">Sign up</button>
+<button id="account" class="btn" onclick="toggle_account()">Account</button>
+<button id="settings" class="btn" onclick="toggle_setting">Settings</button>
+<a href="index.html">
+    <button id="home" class="btn" onclick="toggle_homepage">Home</button>
+</a>
 
 <body>
     <header>
@@ -29,10 +36,10 @@
                     <input type="text" id="email" name="email" placeholder="Enter your email"><br>
                     <!--Password Input-->
                     <label for="pname">Password:</label><br>
-                    <input type="text" id="pname" name="pname" placeholder="Enter your password"><br>
+                    <input type="password" id="pname" name="pname" placeholder="Enter your password"><br>
                     <!--Password Confirmation-->
                     <label for="pname">Password Again:</label><br>
-                    <input type="text" id="pname" name="pname" placeholder="Repeat your password"><br>
+                    <input type="password" id="pname" name="pname" placeholder="Repeat your password"><br>
                     <!--Confirm signup Button-->
                     <button class="btn">Confirmation</button>
                     <!--Sign-up message-->
@@ -50,7 +57,7 @@
                     <input type="text" id="user" name="uname" placeholder="Enter username"><br>
                     <!--Password Input-->
                     <label for="pname">Password:</label><br>
-                    <input type="text" id="pname" name="pname" placeholder="Enter password"></br>
+                    <input type="password" id="pname" name="pname" placeholder="Enter password"></br>
                     <!--Login Button-->
                     <button class="btn" onclick="signupsuccess">Login In</button>
                     <!--Login Message-->
@@ -60,21 +67,14 @@
             </div>
         </section>
     </header>
-    <nav>
-        <div>
-            <button id="login" class="btn" onclick="toggle_login()">Login</button>
-            <button id="sign-up" class="btn" onclick="toggle_signup()">Sign up</button>
-            <button id="account" class="btn" onclick="toggle_account()">Account</button>
-            <button id="home" class="btn" onclick="toggle_homepage">Home</button>
-            <button id="settings" class="btn" onclick="setting">Settings</button>
-        </div>
-    </nav>
     <div>
-        <input id="play" type="submit" value="Play">
+        <a href="src/html/maps.html">
+            <button>Play</button>
+        </a>
     </div>
     <footer>
         <div>
-            <p>Website Creator: Sir_Afro</p>
+            <p>Website Creator: Sir Afro</p>
         </div>
     </footer>
 </body>
