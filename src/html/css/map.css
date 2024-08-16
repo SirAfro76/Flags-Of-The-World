@@ -1,4 +1,25 @@
-#page-title{
-    text-align: center;
+#page-title {
+    display: block;
     font-size: 50px;
+    text-align: center;
+}
+
+#page-title-p {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+
+#selection-menu {
+    display: block;
+    text-align: center;
+}
+
+#all-continents {
+    display: block;
+    margin: 0 auto;
+}
+#Confirm{
+    display: block;
+    margin: 0 auto;
 }

@@ -14,16 +14,20 @@ $$$$$$\ $$$$$$$  |$$  /     \$$$$$$  |
 /* Titles */
 
 #page-title {
+    display: block;
     text-align: center;
 }
 
-#page-title-p{
+#page-title-p {
+    display: block;
     text-align: center;
 }
 
-#play{
+#play {
+    display: block;
     text-align: center;
 }
+
 /* Buttons */
 #signup-button {
     display: none;
@@ -33,14 +37,20 @@ $$$$$$\ $$$$$$$  |$$  /     \$$$$$$  |
     display: none;
 }
 
-#settings{
-    position:fixed;
+#settings {
+    display: block;
+    position: fixed;
     right: 5px;
 }
 
-#account{
+#play-button{
+    display: block;
+}
+
+#account {
+    display: block;
     position: fixed;
-    
+    right: 75px;
 }
 
 /* Login Message*/

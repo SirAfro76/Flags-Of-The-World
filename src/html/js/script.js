@@ -32,4 +32,5 @@ function toggle_signup() {
 
 function toggle_account() {
     alert('account button clicked');
+    
 }
