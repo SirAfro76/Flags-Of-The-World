@@ -6,28 +6,44 @@
 </head>
 
 <body>
-
     <head>
         <div>
-            <h1 id="page-title">Hi</h1>
+            <h1 id="page-title">Continents Of The World</h1>
+            <p id="page-title-p">Select one, muiltiple or do them all</p>
         </div>
     </head>
-    <section>
-        <div>
-            <h1 id="selection-page">Select Continent/s or do all</h1>
-        </div>
-        <div>
-            <input id="AF" class="continent" type="button" value="Africa">
-            <input id="NA-CA" class="continent" type="button" value="North America & Central America">
-            <input id="SA" class="continent" type="button" value="South America">
-            <input id="AS" class="continent" type="button" value="Asia">
-            <input id="OCE" class="continent" type="button" value="Australasia & Oceania">
-            <input id="EU" class="continent" type="button" value="Europe">
-            <input id="AN" class="continent" type="button" value="Antarcia">
-        </div>
-        <input id="all-continents" type="button" value="all">
-        </div>
-    </section>
+    <main>
+        <section>
+            <div id="selection-menu">
+                <input type="checkbox" id="AF" class="continent">
+                <label for="AF">Africa</label><br>
+
+                <input id="NA-CA" class="continent" type="checkbox">
+                <label for="NA-CA">North Amercia & Central Amercia</label><br>
+
+                <input id="SA" class="continent" type="checkbox">
+                <label for="SA">South Amercia</label><br>
+
+                <input id="AS" class="continent" type="checkbox">
+                <label for="AS">Asia</label><br>
+
+                <input id="OCE" class="continent" type="checkbox">
+                <label for="OCE">Australaisa & Oceania</label><br>
+
+                <input id="EU" class="continent" type="checkbox">
+                <label for="EU">Europe</label><br>
+
+                <input id="AN" class="continent" type="checkbox">
+                <label for="AN">Antartica</label><br>
+            </div>
+            <div>
+                <input id="all-continents" type="button" value="all">
+            </div>
+            <div>
+                <input id="Confirm" type="button" value="Confirm">
+            </div>
+        </section>
+    </main>
 </body>
 
 <script src="js/map.js"></script>
