@@ -1,16 +1,12 @@
+var loginform = document.getElementById('login-form');
+var signupform = document.getElementById('signup-form');
+var account = document.getElementById('account');
+var pwd = document.getElementById('pwd');
+
 function loadscriptconfirmation() {
     alert('script.js loaded successfully');
     console.log('script.js loaded successfully');
 } loadscriptconfirmation();
-
-let loginform;
-let signupform;
-
-function ignite() {
-    loginform = document.getElementById('login-form');
-    signupform = document.getElementById('signup-form');
-    account = document.getElementById('account');
-} ignite();
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
@@ -30,7 +26,14 @@ function toggle_signup() {
     loginform.style.display = "none";
 }
 
-function toggle_account() {
-    alert('account button clicked');
-    
+function showpwd() {
+    if (pwd.type === "password") {
+        pwd.type = "text";
+    } else {
+        pwd.type ="password";
+    }
+}
+
+function drag(obj) {
+    obj.dataTransfer.setData()
 }

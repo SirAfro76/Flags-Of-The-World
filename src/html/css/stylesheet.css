@@ -8,63 +8,38 @@
     text-align: center;
 }
 
-#play {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-}
-
-#signup-button {
-    position: absolute;
-    justify-content: left;
-}
-
-#login-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
+/*Button*/
 #settings {
+    display: inline;
     position: absolute;
-    top: 10px;
-    right: 100px;
+    right: 10px;
 }
 
 #account {
+    display: inline;
     position: absolute;
-    top: 10px;
-    right: 10px;
-
+    right: 80px;
 }
 
-#play-button {
-    display: block;
+#home {
+    display: inline;
+    position: absolute;
+    right: 50%;
 }
 
-#login-failed {
-    display: none;
+#play-button{
+    display: inline;
+    position: absolute;
+    right: 50%;
 }
 
-#login-success {
-    display: none;
-}
-
-#signup-success {
-    display: none;
-}
-
-#signup-failed {
-    display: none;
-}
-
-
+/* Forms */
 #signup-form {
-    text-align: center;
     display: none;
+    text-align: center;
 }
 
 #login-form {
-    text-align: center;
     display: none;
+    text-align: center;
 }
