@@ -11,6 +11,7 @@
 - Account features
     * Include Profile Picture
     * Date of Account Creation
+    * Last Activity
     * Continents
       * Average Completition time
       * BP time
@@ -21,13 +22,19 @@
       * Fastest Country typed
       * Slowest Country typed
     * Flags Of the World
-      * BP
+      * PB
       * Average
       * Slowest Countries/Territories
       * Fastest Countries/Territories
       * Commonly Misspelled
       * Match Either/Both Names and flags to eachother and location on the world Map
+    * Trophies
+    * Achievement Page
+    * Challenge Page
+    * 
 
+# Game-Modes
+- 
 
 # WORLD MAP
 - Create an SVG of the world map for practice

@@ -1,14 +1,39 @@
-#page-title {
-    display: block;
+body {
+    background-color: rgb(144, 58, 58);
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#github-profile {
     text-align: center;
+}
+
+#page-title {
+    border-style: double;
+    text-align: center;
+    display: block;
 }
 
 #page-title-p {
-    display: block;
     text-align: center;
 }
 
+#exclaimer {
+    text-align: center;
+    font-size: small;
+
+}
+
 /*Button*/
+
+.btn {
+    font-family: sans-serif;
+    font: bold;
+    border-style: dashed;
+}
+
 #settings {
     display: inline;
     position: absolute;
@@ -21,25 +46,37 @@
     right: 80px;
 }
 
-#home {
+#home,
+#play-button {
     display: inline;
     position: absolute;
     right: 50%;
-}
 
-#play-button{
-    display: inline;
-    position: absolute;
-    right: 50%;
 }
 
 /* Forms */
+#login-form,
 #signup-form {
     display: none;
     text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(58, 144, 144);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(14, 81, 54);
 }
 
-#login-form {
-    display: none;
-    text-align: center;
+footer {
+    display: block;
+    background-color: rgb(10, 143, 143, 0.5);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+#icon {
+    width: 24px;
+    height: 24px;
 }

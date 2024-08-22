@@ -4,7 +4,6 @@ var account = document.getElementById('account');
 var pwd = document.getElementById('pwd');
 
 function loadscriptconfirmation() {
-    alert('script.js loaded successfully');
     console.log('script.js loaded successfully');
 } loadscriptconfirmation();
 

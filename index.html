@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <title>FOTW</title>
     <link rel="icon" type="image/x-icon" href="src/img/icon.png">
@@ -18,33 +19,36 @@
     <button id="home" class="btn" onclick="toggle_homepage">Home</button>
 </a>
 
+<button id="bug-report" class="btn" onclick="toggle_bugform">Report Bugs</button>
+
 <body>
     <header>
         <section>
             <div>
-                <h1 id="page-title">Flags Of The World Quiz</h1>
+                <h1 id="page-title" name="nc">Flags Of The World Quiz</h1>
                 <p id="page-title-p">Practice your knowledge of all the flags of the world</p>
             </div>
         </section>
         <section>
-            <div>
+            <div class="signup-container" name="nc">
                 <form class="form" id="signup-form">
                     <h1>Sign up</h1>
-                    <p>Have an account?</p>
+                    <p>Have an account?, Try Login instead</p>
                     <hr>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" placeholder="Enter email" required autocomplete="email"><br>
+                    <label for="email"><b>Email:</b></label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter email" required
+                        autocomplete="email"><br>
 
-                    <label for="uname">Username:</label><br>
+                    <label for="uname"><b>Username:</b></label><br>
                     <input type="text" id="uname" name="uname" placeholder="Enter username" required><br>
 
-                    <label for="dname">Display Name:</label><br>
+                    <label for="dname"><b>Display Name:</b></label><br>
                     <input type="text" id="dname" name="dname" placeholder="Your visible name" required><br>
 
-                    <label for="pass">Password:</label><br>
+                    <label for="pass"><b>Password:</b></label><br>
                     <input type="password" id="pwd" name="pwd" placeholder="Enter password" required><br>
 
-                    <label for="pwd-rep">Password Again:</label><br>
+                    <label for="pwd-rep"><b>Password Again:</b></label><br>
                     <input type="password" id="pwd-rep" name="pwd-rep" placeholder="Repeat password" required><br>
 
                     <input id="show-password" type="checkbox" onclick="showpwd()">Show Password
@@ -53,7 +57,7 @@
             </div>
         </section>
         <section>
-            <div>
+            <div class="login-container">
                 <form class="form" id="login-form">
                     <h1>Login</h1>
                     <hr>
@@ -61,12 +65,20 @@
                     <input type="text" id="user" name="uname" placeholder="Enter username" autocomplete="username"><br>
 
                     <label for="pname"><b>Password:</b></label><br>
-                    <input type="password" id="pname" name="pname" placeholder="Enter password" autocomplete="current-password"></br>
+                    <input type="password" id="pname" name="pname" placeholder="Enter password"
+                        autocomplete="current-password"></br>
 
                     <input type="checkbox" checked="checked" name="remeber">Remember Me
                     </label>
 
                     <button class="btn">Login</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="bug-container">
+                <form class="form" id="bugreport-form">
+                    <h1></h1>
                 </form>
             </div>
         </section>
@@ -78,6 +90,21 @@
             </a>
         </div>
     </main>
+    <footer>
+        <section>
+            <div id="github-profile">
+                <label>
+                    <a href="https://github.com/SirAfro76">
+                        <img id="icon" src="src/img/github-mark-white.png">
+                    </a> Sir Afro |
+                    Creator and Dev
+                </label>
+            </div>
+            <p id="exclaimer">
+                This website is still under very early development so please report any bugs, Gramcery
+            </p>
+        </section>
+    </footer>
 </body>
 
 <script src="src/html/js/script.js"></script>
