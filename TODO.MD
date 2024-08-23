@@ -12,28 +12,37 @@
     * Include Profile Picture
     * Date of Account Creation
     * Last Activity
-    * Continents
-      * Average Completition time
-      * BP time
-      * Commonly Missed Spelled in each continent
-      * Fast Continent to complete
-      * Slowest Continent to complete
-    * Countries
-      * Fastest Country typed
-      * Slowest Country typed
-    * Flags Of the World
-      * PB
-      * Average
-      * Slowest Countries/Territories
-      * Fastest Countries/Territories
-      * Commonly Misspelled
-      * Match Either/Both Names and flags to eachother and location on the world Map
-    * Trophies
-    * Achievement Page
-    * Challenge Page
-    * 
+    * User Stats
+      * Continents
+        * Average Completition time
+        * BP time
+        * Commonly Missed Spelled in each continent
+        * Fast Continent to complete
+        * Slowest Continent to complete
+      * Countries
+        * Fastest Country typed
+        * Slowest Country typed
+      * Flags Of the World
+        * PB
+        * Average
+        * Slowest Countries/Territories
+        * Fastest Countries/Territories
+        * Commonly Misspelled
+        * Match Either/Both Names and flags to eachother and location on the world Map
+      * Trophies
+      * Achievement Page
+      * Challenge Page
+      * Historical Flags.
+  
+- Add SQL for storing sign-up information
+- Hashing passwords
+- Basic Authentication
+- Automated Password Reset 
 
 # Game-Modes
+- 1V1
+- Team
+- Guess the flag
 - 
 
 # WORLD MAP
@@ -42,3 +51,4 @@
     * Auto Highlight the specified area based on the search term
     * Toggle Flag Overlay onto the world-map based on the country, e.g. Australian flag covering Australia, New Zealand Flag covering New Zealand
     * Show Borders for each of the countries and states with the name over it 
+
