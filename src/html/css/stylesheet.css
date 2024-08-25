@@ -1,10 +1,19 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
 body {
     background-color: rgb(144, 58, 58);
 }
 
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+#nav-menu {
+    display: block;
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
 }
+
 
 #github-profile {
     text-align: center;
@@ -23,7 +32,6 @@ body {
 #exclaimer {
     text-align: center;
     font-size: small;
-
 }
 
 /*Button*/
