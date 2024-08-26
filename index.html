@@ -32,14 +32,13 @@
         </section>
         <section>
             <div class="signup-container" name="nc">
-                <form action="src/php/signup.php" method="post" class="form" id="signup-form">
+                <form action="src/php/connection.php" method="post" class="form" id="signup-form">
                     <h1>Sign up</h1>
                     <p>Have an account?, Try Login instead</p>
                     <hr>
                     <label for="email"><b>Email:</b></label><br>
-                    <input type="email" id="email" name="email" placeholder="Enter email" required
-                        autocomplete="email"><br>
-
+                    <input type="email" id="email" name="email" placeholder="Enter email" autocomplete="email"
+                        required><br>
                     <label for="uname"><b>Username:</b></label><br>
                     <input type="text" id="uname" name="uname" placeholder="Enter username" required><br>
 
@@ -49,14 +48,12 @@
                     <label for="pass"><b>Password:</b></label><br>
                     <input type="password" id="pwd" name="pwd" placeholder="Enter password" required><br>
 
-                    <label for="pwd-rep"><b>Password Again:</b></label><br>
-                    <input type="password" id="pwd-rep" name="pwd-rep" placeholder="Repeat password" required><br>
-
                     <input id="show-password" type="checkbox" onclick="showpwd()">Show Password
-                    <button class="btn">Confirm</button><br>
-                    </div>
+
+                    <button class="btn" id=signup_submit>Confirm</button><br>
+
+                    <label id="message_check"><b>Awaiting</b></label>
                 </form>
-            </div>
             </div>
         </section>
         <section>
@@ -68,12 +65,11 @@
                     <input type="text" id="user" name="uname" placeholder="Enter username" autocomplete="username"><br>
 
                     <label for="pname"><b>Password:</b></label><br>
-                    <input type="password" id="pname" name="pname" placeholder="Enter password"
-                        autocomplete="current-password"></br>
+                    <input type="password" id="pname" name="pname" placeholder="Enter password"autocomplete="current-password"></br>
 
-                    <input type="checkbox" checked="checked" name="remeber">Remember Me
-                    </label>
-                    <button class="btn">Login</button>
+                    <input type="checkbox" checked="checked" name="remeber">Remember Me</label>
+
+                    <button class="btn" id="login_submit">Login</button>
                 </form>
             </div>
         </section>
@@ -111,6 +107,6 @@
 </body>
 
 <script src="src/html/js/script.js"></script>
-<script src="src/html/js/php.js"></script>
+<script src="src/html/js/php_link.js"></script>
 
 </html>

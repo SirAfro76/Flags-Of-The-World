@@ -1,25 +1,28 @@
 <?php
 
-session_start();
+$yolo = "Made it to signup.php";
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $username = $_POST['uname'];
-    $password = $_POST['pwd'];
-    $email = $_POST['email'];
-    $dn = $_POST['dname'];
+json_encode($yolo);
 
-}
+// session_start();
 
-$sql = "INSERT INTO users (email,username,passaword,dn) VALUES ('$username','$password',''email','dn')";
+// if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+//     $username = $_POST['uname'];
+//     $password = $_POST['pwd'];
+//     $email = $_POST['email'];
+//     $dn = $_POST['dname'];
 
-if (mysqli_query($connection, $sql)) {
-    $_SESSION['message'] = '<span class="success">Success</span>';
-} else { {
-        $_SESSION['message'] = '<span class="failed">Error ' . mysqli_error($connection) . '</span>';
-    }
-    mysqli_close($connection);
-    
-    header("Location: signup.php");
-    exit();
-}
+// }
+
+// $sql = "INSERT INTO users (email,username,passaword,dn) VALUES ('$username','$password',''email','dn')";
+
+// if (mysqli_query($connection, $sqli)) {
+//     $_SESSION['message'] = '<span class="success">Success</span>';
+// } else { 
+//         $_SESSION['message'] = '<span class="failed">Error ' . mysqli_error($connection) . '</span>';
+//     }
+
+// mysqli_close($connection);
+
+// exit();
 
