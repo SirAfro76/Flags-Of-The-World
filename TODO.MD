@@ -52,3 +52,5 @@
     * Toggle Flag Overlay onto the world-map based on the country, e.g. Australian flag covering Australia, New Zealand Flag covering New Zealand
     * Show Borders for each of the countries and states with the name over it 
 
+# SQL Storage
+- accounts
