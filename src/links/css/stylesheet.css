@@ -14,6 +14,15 @@ body {
     width: 100%;
 }
 
+#home {
+    display: block;
+}
+
+#login,
+#sign-up,
+#bug-report {
+    display: none;
+}
 
 #github-profile {
     text-align: center;
@@ -43,18 +52,17 @@ body {
 }
 
 #settings {
-    display: inline;
+    display: none;
     position: absolute;
     right: 10px;
 }
 
 #account {
-    display: inline;
+    display: none;
     position: absolute;
     right: 80px;
 }
 
-#home,
 #play-button {
     display: inline;
     position: absolute;

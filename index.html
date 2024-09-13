@@ -3,26 +3,28 @@
 <head>
     <title>FOTW</title>
     <link rel="icon" type="image/x-icon" href="src/img/icon.png">
-    <link rel="stylesheet" href="src/html/css/stylesheet.css">
+    <link rel="stylesheet" href="src/links/css/stylesheet.css">
 </head>
 
 <body>
     <header>
         <section>
-            <nav id="nav-menu">
-                <button id="login" class="btn" onclick="toggle_login()">Login</button>
-                <button id="sign-up" class="btn" onclick="toggle_signup()">Sign up</button>
-                <a href="src/html/account.html">
-                    <button id="account" class="btn" onclick="toggle_account()">Account</button>
-                </a>
-                <a href="src/html/settings.html">
-                    <button id="settings" class="btn" onclick="toggle_setting()">Settings</button>
-                </a>
-                <a href="index.html">
-                    <button id="home" class="btn" onclick="toggle_homepage">Home</button>
-                </a>
-                <button id="bug-report" class="btn" onclick="toggle_bugform">Report Bugs</button>
-            </nav>
+            <div>
+                <nav id="nav-menu">
+                    <button id="login" class="btn" onclick="toggle_login()">Login</button>
+                    <button id="sign-up" class="btn" onclick="toggle_signup()">Sign up</button>
+                    <a href="src/links/html/account.html">
+                        <button id="account" class="btn" onclick="toggle_account()">Account</button>
+                    </a>
+                    <a href="src/links/html/settings.html">
+                        <button id="settings" class="btn" onclick="toggle_setting()">Settings</button>
+                    </a>
+                    <a href="index.html">
+                        <button id="home" class="btn" onclick="toggle_homepage">Home</button>
+                    </a>
+                    <button id="bug-report" class="btn" onclick="toggle_bugform">Report Bugs</button>
+                </nav>
+            </div>
         </section>
         <section>
             <div id="title">
@@ -32,7 +34,7 @@
         </section>
         <section>
             <div class="signup-container" name="nc">
-                <form action="src/php/connection.php" method="post" class="form" id="signup-form">
+                <form action="" method="post" class="form" id="signup-form">
                     <h1>Sign up</h1>
                     <p>Have an account?, Try Login instead</p>
                     <hr>
@@ -58,14 +60,15 @@
         </section>
         <section>
             <div class="login-container">
-                <form action="src/php/connection.php" method="post" class="form" id="login-form">
+                <form action="" method="post" class="form" id="login-form">
                     <h1>Login</h1>
                     <hr>
                     <label for="uname"><b>Username:</b></label><br>
                     <input type="text" id="user" name="uname" placeholder="Enter username" autocomplete="username"><br>
 
                     <label for="pname"><b>Password:</b></label><br>
-                    <input type="password" id="pname" name="pname" placeholder="Enter password"autocomplete="current-password"></br>
+                    <input type="password" id="pname" name="pname" placeholder="Enter password"
+                        autocomplete="current-password"></br>
 
                     <input type="checkbox" checked="checked" name="remeber">Remember Me</label>
 
@@ -83,7 +86,7 @@
     </header>
     <main>
         <div>
-            <a href="src/html/maps.html">
+            <a href="src/links/html/maps.html">
                 <button id="play-button" class="btn">Play</button>
             </a>
         </div>
@@ -106,7 +109,7 @@
     </footer>
 </body>
 
-<script src="src/html/js/script.js"></script>
-<script src="src/html/js/php_link.js"></script>
+<script src="src/links/html/js/script.js"></script>
+<script src="src/links/html/js/php_link.js"></script>
 
 </html>
