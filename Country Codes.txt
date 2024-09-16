@@ -129,7 +129,7 @@
     "kw": "Kuwait",
     "ky": "Cayman Islands",
     "kz": "Kazakhstan",
-    "la": "Laos",
+    "la": "Laos" (Lao PDR{"Lao People's Democratic Republic"}),
     "lb": "Lebanon",
     "lc": "Saint Lucia",
     "li": "Liechtenstein",
