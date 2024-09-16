@@ -1,0 +1,45 @@
+#page-title {
+  border-style: double;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+}
+
+#page-title-p {
+  text-align: center;
+  display: block;
+  font-size: 30px;
+}
+
+#selection-menu {
+  font-size: medium;
+  display: block;
+  position: relative;
+  left: 1200px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#all-continents {
+  display: block;
+  margin: 0 auto;
+}
+
+#Confirm {
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+  background-color: rgb(144, 58, 58);
+}
+
+.btn {
+  font-family: sans-serif;
+  font: bold;
+  border-style: dashed;
+}

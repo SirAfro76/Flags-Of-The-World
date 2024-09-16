@@ -32,10 +32,12 @@ body {
     border-style: double;
     text-align: center;
     display: block;
+    font-size: 50px;
 }
 
 #page-title-p {
     text-align: center;
+    font-size: 30px;
 }
 
 #exclaimer {
