@@ -50,7 +50,7 @@
     "co": "Colombia",
     "cr": "Costa Rica",
     "cu": "Cuba",
-    "cv": "Cape Verde",
+    "cv": "Cape Verde (Cabo Verde, Republic of Cabo Verde)",
     "cw": "Curaçao",
     "cx": "Christmas Island",
     "cy": "Cyprus",

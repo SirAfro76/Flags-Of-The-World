@@ -1,0 +1,16 @@
+img {
+    border: 4px;
+    border-style: dotted;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: rgb(144, 58, 58);
+}
+
+h2{
+    text-align: center;
+}
