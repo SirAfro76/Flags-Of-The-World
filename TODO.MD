@@ -55,10 +55,10 @@
   * Toggle Flag Fill (Fills the entered flag in the region it resides in)
 
 # WORLD MAP
-- Create an SVG of the world map for practice
-  * Auto-fill search for continents, countries and territories
+- Create an SVG of the world map for practice   
+  * Auto-fill search for continents, countries, territories & Islands (very tiny islands)
   * Auto Highlight the specified area based on the search term
-    * Only A specific Continent
+    * Only A specific **Continent**
     * Specific Region 
   * Toggle Flag Overlay onto the world-map based on the country, e.g. Australian flag covering Australia, New Zealand Flag covering New Zealand
   * Show Borders for each of the countries and states with the name over it
@@ -69,3 +69,6 @@
 - Hashing passwords
 - Basic Authentication
 - Automated Password Reset 
+
+# Other Languages???
+- 
