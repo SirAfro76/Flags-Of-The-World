@@ -1,16 +1,46 @@
-img {
-    border: 4px;
-    border-style: dotted;
-}
-
+/* Global Variables */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+img {
+    border: 4px;
+    border-style: solid;
+    margin: 5px;
+}
+
+caption {
+    font-weight: bold;
 }
 
 body {
     background-color: rgb(144, 58, 58);
 }
 
-h2{
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Classes */
+.image-container {
+    display: flex;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textbox {
+    width: 220px;
+    border-style: solid;
+}
+
+th{
     text-align: center;
 }
