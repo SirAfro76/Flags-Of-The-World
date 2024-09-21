@@ -145,7 +145,8 @@
     "ly": "Libya",
     "ma": "Morocco",
     "mc": "Monaco",
-    "md": "Moldova",
+    "md-pmr: "Transnistria(Pridnestrovian Moldavian Republic)"
+    "md": "Moldova (Republic Of Moldova)",
     "me": "Montenegro",
     "mf": "Saint Martin",
     "mg": "Madagascar",
