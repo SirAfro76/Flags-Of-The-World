@@ -25,6 +25,7 @@ h1,h2,h3 {
 /* Classes */
 .image-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .image-item {
@@ -36,8 +37,4 @@ h1,h2,h3 {
 .textbox {
     width: 220px;
     border-style: solid;
-}
-
-th{
-    text-align: center;
 }
