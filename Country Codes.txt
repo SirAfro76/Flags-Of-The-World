@@ -199,7 +199,7 @@
     "pw": "Palau",
     "py": "Paraguay",
     "qa": "Qatar",
-    "re": "Réunion",
+    "re": "Réunion Radiant Volcano",
     "ro": "Romania",
     "rs": "Serbia",
     "ru": "Russia (The Russia Federation)",
