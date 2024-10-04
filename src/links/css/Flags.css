@@ -44,3 +44,24 @@ h3 {
     border-style: solid;
     margin: 10px;
 }
+
+.btn {
+    font-family: sans-serif;
+    font: bold;
+    border-style: dashed;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: rgb(144, 58, 58);
+}
+
+h1 {
+    border-style: double;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+}

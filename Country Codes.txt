@@ -87,7 +87,7 @@
     "gb-wls": "Wales",
     "gb": "United Kingdom",
     "gd": "Grenada",
-    "ge-ab":"Abkhazia",
+    "ge-ab":"Abkhazia Republic of Abkhazia",
     "ge-so":"South Ossetia",
     "ge": "Georgia",
     "gf": "French Guiana",

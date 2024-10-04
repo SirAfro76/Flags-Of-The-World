@@ -7,7 +7,7 @@
   * Switches
 - Add Throbbers
 
-# FUNCTION
+# User Account
 - Add sign-up and login implementations to save user progress and statistics
 - Account features
   * Include Profile Picture
@@ -36,32 +36,27 @@
       * Historical Flags (Later)
 
 # Game-Modes
-- 1V1
-- Team
-- Guess the flag
-- Flags Of <Continet>
-  * Africa
-  * Asia
-  * Europe
-  * North America & Central America
-  * Oceania
-  * South America
-  * All
+- 1v1
+- Team Guesser
+- Guess the flag (Mario ? Box)
+- Classic Flag Guess, one mulitple or all 
 - Name of a country to the map of the world
+- Timed
 
-# Buttons
+# Functions
 - Toggles
-  * Type the full name vs the shortern named (Only Affects Some Countries, e.g. UAE)
-  * Toggle Flag Fill (Fills the entered flag in the region it resides in)
+  * Full name vs Shortern Name 
+  * Flag Fill vs Name Fill (Fills the entered flag in the region it resides in)
 
 # WORLD MAP
 - Create an SVG of the world map for practice   
-  * Auto-fill search for continents, countries, territories & Islands (very tiny islands)
-  * Auto Highlight the specified area based on the search term
-    * Only A specific **Continent**
-    * Specific Region 
-  * Toggle Flag Overlay onto the world-map based on the country, e.g. Australian flag covering Australia, New Zealand Flag covering New Zealand
+  * Auto Highlight the specified area based on the search term 
   * Show Borders for each of the countries and states with the name over it
+- Map Type
+  * Default
+    * Terrain
+  * Satellite
+  * Labels
 
 # SQL Storage
 - accounts
@@ -71,4 +66,4 @@
 - Automated Password Reset 
 
 # Other Languages???
-- 
+- Maybe
